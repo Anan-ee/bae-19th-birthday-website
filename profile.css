@@ -1,0 +1,154 @@
+.profile-icon1{
+    height:32%;
+    position:absolute;
+    right:40px;
+    top:36px;
+}
+.profile-icon2{
+    height:26%;
+    position:absolute;
+    right:160px;
+    top:100px;
+}
+.profile-icon3{
+    height:22%;
+    position:absolute;
+    left:230px;
+    top:-10px;
+}
+.profile-button{
+    height:135px;
+    width:135px;
+    border-radius:50%;
+    background-color:rgb(14, 14, 14);
+    border-style:solid;
+    border-color:rgb(150, 150, 150);
+    cursor:pointer;
+    margin-top:10px;
+    margin-left:-20px;
+}
+.profile-pic{
+    border-radius:50%;
+    height:125px;
+    width:125px;
+    margin-left:-3px;
+    margin-top:2px;
+}
+.div-in-button-profile{
+    height:100%;
+    width:100%;
+    position:relative;
+    z-index:99;
+
+}
+.profile-note{
+    background-color:rgb(228, 226, 226);
+    opacity:0.97;
+    position:absolute;
+    top:-8px;
+    right:-12px;
+    z-index:99;
+    height:32px;
+    width:55px;
+    border-radius:14px;
+    border:none;
+}
+.profile-button:hover{
+    height:145px;
+    width:145px;
+}
+.profile-button:hover .profile-pic{
+    height:135px;
+    width:135px;
+}
+
+.div-in-edit-button{
+    height:45.84px;
+    width:45.84px;
+    cursor:pointer;
+}
+.edit{
+    height:100%;
+    width:100%;
+}
+.top-button{
+    height:65%;
+    width:80%;
+    background-color:rgb(78, 78, 78);
+    color:white;
+    border-radius:6px;
+    border:none;
+    cursor:pointer;
+    transition:background-color 0.1s;
+}
+.top-button:hover{
+    background-color:rgb(109, 108, 108);
+}
+.profile-text1{
+    margin-top:23px;
+    font-size:14px;
+    color:white;
+    margin-bottom:1px;
+}
+.profile-text-blank{
+    font-size:14px;
+    color:white;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+.profile-text2{
+    font-size:14px;
+    color:white;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+.profile-text3{
+    font-size:14px;
+    color:white;
+    margin-top:1px;
+    margin-bottom:1px;
+}
+
+.stories-button{
+    background-color:rgb(14, 14, 14);
+    border-style:solid;
+    border-color:rgb(150, 150, 150);
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.stories-image{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    margin-left:-3px;
+    margin-top:2px;
+}
+.stories-text{
+    color:white;
+    font-size:16px;
+    position:absolute;
+    bottom:0px;
+}
+.stories-button:hover{
+    width:85px;
+    height:85px;
+}
+.stories-button:hover .stories-image{
+    width:75px;
+    height:75px;
+}
+
+.option-image{
+    max-height:100%;
+    flex:2;
+}
+.option-text{
+    color:white;
+    text-align:left;
+    margin-left:1px;
+    font-size:14px;
+    flex:3;
+}
+
